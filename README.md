@@ -22,6 +22,15 @@ The project consists of the following key components:
 - `final-project-weather-api.py`: Fetches weather data using the Visual Crossing Weather API.
 - `final-project-model1.ipynb`, `final-project-model2.ipynb`, `final-project-model3.ipynb`: Jupyter notebooks for building and training the soil type prediction, crop prediction, and fertilizer recommendation models respectively.
 
+## Data Sets Used
+
+- **Precision Crop Optimization Dataset**: The dataset encapsulates 1000 unique agricultural scenarios with these attributes: District, Soil Type, pH Level, Organic Matter (%), Nitrogen Content (kg/ha), Phosphorus Content (kg/ha), and Potassium Content (kg/ha).
+  - Source: [Kaggle - Precision Crop Optimization Dataset](https://www.kaggle.com/datasets/janhavisrivastava14/precision-crop-optimization-dataset)
+- **Crop Recommendation Data**: This dataset was made by augmenting optimum soil and environmental characteristics for crop growth. 
+  - Source: [Harvard Dataverse - Crop Recommendation Data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/4GBWFV)
+- **Fertilizer Prediction**: This data includes fertilizers used in 100 unique agricultural settings. Fertilizer classes include Urea, DAP, and Compound (10-26-26, 14-35-14, 17-17-17, 20-20, 28-28).
+  - Source: [Kaggle - Fertilizer Prediction](https://www.kaggle.com/datasets/gdabhishek/fertilizer-prediction)
+
 ## Setup
 Create a `final-project-config.json` file in the root directory with the following structure:
 
